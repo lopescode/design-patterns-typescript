@@ -4,7 +4,7 @@ export class Notify {
   constructor(private client: Client) {}
 
   sendEmail(): boolean {
-    console.log('Sending e-mail...')
+    console.log(`Sending e-mail...`)
 
     return true
   }
