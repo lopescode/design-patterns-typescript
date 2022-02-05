@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "dev-factorymethod": "ts-node-dev --respawn --transpile-only ./src/DesignPatterns/CreationalPattern/FactoryMethod/samples/index.ts",
     "lint": "eslint -c .eslintrc.json --max-warnings=0 ./ts --ext .ts --fix"
   },
   "devDependencies": {
