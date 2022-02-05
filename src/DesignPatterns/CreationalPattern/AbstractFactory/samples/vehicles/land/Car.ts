@@ -1,6 +1,6 @@
-import { IVehicle } from './interfaces/IVehicle'
+import { ILandVehicle } from './interfaces/ILandVehicle'
 
-export class Car implements IVehicle {
+export class Car implements ILandVehicle {
   startRoute(): void {
     this.getCargo()
     console.log('Starting route...')
